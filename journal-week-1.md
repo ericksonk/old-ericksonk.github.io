@@ -2,6 +2,8 @@
  * use programming languages to create, maintain and improve software
 
 ** What principles of a developer have you learned? **
+ * test driven development
+ * pair programing
 
 ** What is pair programming? **
   * Two programmers work together on one work station
