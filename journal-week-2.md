@@ -21,3 +21,4 @@
     var whereAmINow = 'local';
   }
 ```
+During week 2 at The Iron Yard we started to explore "the DOM" and got to see how JavaScript interacts in a browser.
