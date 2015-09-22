@@ -1,6 +1,12 @@
 ## How to Write a CSS Rule
 
-All CSS rules contain two parts, a ** selector ** and a ** declaration **. The ** selector ** indicates which HTML element you want the rule to apply to. The ** declaration ** indicates _how_ the selected element should be styles. It consists of 2 parts, a ** property ** and a ** value ** which are separated by a colon. The ** property ** indicates the aspect of the elements you want to change and the ** value ** specifies the settings you want to use for the given property.
+All CSS rules contain two parts, a **selector** and a **declaration**.
+
+The **selector** indicates which HTML element you want the rule to apply to.
+
+The **declaration** indicates _how_ the selected element should be styled. It consists of 2 parts, a **property** and a **value** which are separated by a colon.
+* The **property** indicates the aspect of the elements you want to change (`color`, `font`, `width`, `height`)
+* The **value** specifies the settings you want to use for the given property (value of color, font-name)
 
 This is the syntax for all css rules:
 
