@@ -22,3 +22,15 @@ h1 {
   font-size: 20pt;
 }
 ```
+
+Example 2: more properties assigned to h1 tag
+```
+h1 {
+  font-size: 20pt;
+  color: #47A3DA;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 20px 20px 80px;
+}
+``` 
