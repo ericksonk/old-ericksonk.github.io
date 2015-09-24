@@ -1,18 +1,7 @@
 # Week 3 Overview
-### CSS
-Cascading Style Sheets. Lets you create rules that specify how the content of an element should appear. It is utilized by associating rules with HTML elements.
-* Each CSS rule is made up of 3 parts:
-  1. selector- indicates which element the rule applies to.
-  1. property- indicates the aspect of the element you want to change (ex. `color`, `font`, `width`, `height`)
-  1. value- specify the settings you want to use for chosen properties (ex. value of color, font-name)
-* Box Model- every box has 4 available properties that can be adjusted to control its appearance:
-	1. `margin`
-	1. `border`
-	1. `padding`
-	1. `content` (`width` & `height`)
 
-### Conquering CSS
-* more difficult than expected
-  * time consuming
-  * guess and check
+Last week we took a break from JavaScript and focused on _cascading style sheets_, or CSS for short. CSS enables you to create rules that specify how the content on your web page will look. It is utilized by associating rules with HTML elements.
 
+Each CSS rule is made up of three parts, a selector, property and value. The selector indicates which element the rule will apply to. The property indicates the aspect of the element you want to change, and the value specifies the settings you want to use for the chosen property. Sounds pretty simple, right?
+
+Wrong. While I found CSS to be easier to conceptually understand than JavaScript, I underestimated how time consuming it is. It was more difficult than I expected and by the end of the weekend assignment my style sheets were a mess. I spent a lot of time guessing and checking different values and properties to understand how they affect the selector. I found it helpful to understand inheritance, specificity and order while trying to override certain rules for different devices (mobile, tablet, desktop).  After Monday's review I got some clairity in terms of using media queries and the rules of precedence (inheritance, specificity and order). I'm looking forward to learning Sass this week.
