@@ -1,9 +1,14 @@
 # Week 4 Overview
 
-* semantic html: describes the content of your web pages more accurately and allows other programs like screen readers and search engines to use the given info
 
-* sass- css processor
-  - refactored old css using sass
+Last week we explored semantic HTML and why it is important
+* There are some elements that are not intended to affect the structure of your web pages but they add extra info to the pages
+* It describes the content of your web pages more accurately and allows other programs like screen readers and search engines to use the given info
+
+
+* SASS aka Semantically Awesome StyleSheets
+  - Sass is a CSS processor that lets you add nested rules
+  - We refactored all our CSS from the blueprints to SASS
   - `node-sass`
 
 * chess
