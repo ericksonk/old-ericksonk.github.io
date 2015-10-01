@@ -1,12 +1,14 @@
 #Adding "start" Task to `package.json` File
 
-* Open your newly created `package.json` file.
-* under the "scripts" key word add:
+Step 1: Open your newly created `package.json` file.
+
+Step 2: under the "scripts" key word add:
 ```
 "start": "browser-sync start --server --directory --files='index.html'"
 ```
-* in your terminal type `npm start'
-* profit
+Step 3: in your terminal type `npm start'
+
+Step 4: profit
 
 Ex. How your `package.json` file might look after:
 ```
