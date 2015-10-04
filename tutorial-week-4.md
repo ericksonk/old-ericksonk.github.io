@@ -1,14 +1,28 @@
-#Adding "start" Task to `package.json` File
+# Adding "start" Task to `package.json` File
+You can set up command line shortcuts for various dependencies. In this particular tutorial, I will be explaining how to set up a shortcut for `browser-sync`.
 
-Step 1: Open your newly created `package.json` file.
+### Step 1: Open your newly created `package.json` file in Atom.
+  * In the command line, `cd` to the correct directory.
+  * Create a `package.json` (use `npm init` and follow the instructions)
+  * When completed, open your new `package.json` file in Atom.
 
-Step 2: under the "scripts" key word add:
+### Step 2: Under the "scripts" key word add:
+```
+"start": "browser-sync start --server --directory --files='FILENAME'"
+```
+  * After `--files='` type to name of the file you want `browser-sync` to open everytime you run the task.
+  * Example: `index.html` will open each time I run this task.
 ```
 "start": "browser-sync start --server --directory --files='index.html'"
 ```
-Step 3: in your terminal type `npm start'
 
-Ex. How your `package.json` file might look after:
+### Step 3: In your terminal type `npm start'
+  * Type `npm start` on the command line and press 'enter'
+  * Your file will open up in your browser via `browser-sync`
+
+### Step 4: See the browser update automatically as you save changes to your files.
+
+Ex. How your `package.json` file might look when complete (note the "scripts" section):
 ```
 {
   "name": "tiy-github",
