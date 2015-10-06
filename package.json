@@ -1,0 +1,25 @@
+{
+  "name": "ericksonk.github.io",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericksonk/ericksonk.github.io.git"
+  },
+  "author": "Kristine Erickson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericksonk/ericksonk.github.io/issues"
+  },
+  "homepage": "https://github.com/ericksonk/ericksonk.github.io#readme",
+  "devDependencies": {
+    "bower": "^1.5.3",
+    "browser-sync": "^2.9.8",
+    "gulp": "^3.9.0",
+    "node-sass": "^3.3.3"
+  }
+}
