@@ -1,0 +1,26 @@
+.grid {
+  width: auto; /* 100% wide */
+
+    &:after { /* clears content */
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    [class*="column"] { /* selects all columns */
+      float: left; /* makes columns next to eachother */
+      width: 8.33%; /* same width for all 12 boxes */
+      padding-right: 20px; /* applies fixed padding to right of all columns.. */
+
+        &:last-of-type { /* ...except last on */
+          padding-right: 0;
+        }
+    }
+
+    /* GUTTERS */
+    *, *:after, *:before { /* applies to everything */
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+}
