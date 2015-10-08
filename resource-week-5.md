@@ -1,4 +1,3 @@
-Potential resources to tl;dr
 ### [The Nerdary- Intro to APIs] (http://www.thenerdary.net/post/20965429451/beginning-apis)
 **tl;dr** An API is like the bubble sheet you use in standardized testing, it is the standard way to exchange information between things.
 
