@@ -1,19 +1,50 @@
 body {
   width: auto;
+  font-family: 'Raleway', Calibri, Arial, sans-serif;
 
   main.container {
     margin: 0 10px;
     box-sizing: border-box;
 
     .sideTabs {
-      outline: gray solid;
+      background: thistle;
       float: left;
+
+      .tabs {
+        list-style-type: none;
+      }
     }
 
     .grid-row {
       width: 90%;
-      outline: gray solid;
       margin-left: 10%;
+
+      .headerImage {
+        background: thistle;
+        padding: 10px 20px;
+      }
+
+      .row-2 {
+
+        [class*="col-"] {
+          box-sizing: border-box;
+          display: block;
+          float: left;
+          padding-right: 20px;
+
+          &:last-child {
+            padding-right: 0;
+          }
+        }
+        .col-1 {
+          width: 100% * (2/3);
+          background: thistle;
+        }
+        .col-2 {
+          width: 100% * (1/3);
+          background: thistle;
+        }
+      }
 
     }
   }
