@@ -12,18 +12,37 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" type="text/css" media="(max-width: 755px)" href="css/_mobile.css" />
-		    <link rel="stylesheet" type="text/css" media="(max-width: 1024px)" href="css/_tablet.css" />
-		    <link rel="stylesheet" type="text/css" media="(max-width: 1600px)" href="css/_desktop.css" />
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+      <main class="container">
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <nav class=sideTabs>
+          <ul class="tabs">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </nav>
+
+        <section class="main">
+
+          <section class="row-1 headerImage">
+            <p>here's a pic</p>
+          </section>
+
+          <section class="row-2">
+            <section class="col-1 blogs">
+              <p>hello</p>
+            </section>
+            <aside class="col-2 socialMedia">
+              <p>aside hello</p>
+            </aside>
+          </section>
+
+        </section>
+      </main>
 
         <script src="../bower_components/jquery/dist/jquery.js"></script>
         <script src="../bower_components/lodash/lodash.js"></script>
