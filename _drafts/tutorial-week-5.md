@@ -1,4 +1,4 @@
-# How to avoid merge conflicts when working on sub-branches
+# How to Avoid Merge Conflicts When working on Feature Branches
 
 1. On GitHub, create a new branch from your `master` branch
   * ex: `release--0.0.1`
