@@ -1,0 +1,15 @@
+ul.blogs {
+  list-style-type: none;
+
+  li.posts{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    h2 {
+      text-transform: uppercase;
+    }
+    a.readMore {
+      text-decoration: none;
+      color: lightgray;
+    }
+  }
+}
