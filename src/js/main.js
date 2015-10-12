@@ -4,11 +4,10 @@ $('li.posts p').each(function () {
   if ($(len > 300)) { // if length is greater than x
     $(this).text($(this).text().substring(0, 300) + '...'); // return `p` elements characters between 0 and x plux `...`
 
-    $('a.readMore').on('click', function () {
-      $('li.posts p').text($('li.post p').text().substring(300));
-    });
+  $('a.readMore').on('click', function () {
+    $('li.posts p').show($('li.posts p').text(.substring(300));
+  });
   }
 });
-
 // `.text()` selects combined text contents of matched element
 // `.substring(indexStart, indexEnd)` - returns part of string between the given indexes
