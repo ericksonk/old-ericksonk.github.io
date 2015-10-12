@@ -3,8 +3,9 @@ $('li.posts p').each(function () {
   var len = $(this).text().length; // selects p element's text and length
   if ($(len > 300)) { // if length is greater than x
     $(this).text($(this).text().substring(0, 300) + '...'); // return `p` elements characters between 0 and x plux `...`
+
     $('a.readMore').on('click', function () {
-      $(this).show($(this).text().substring(300) + '...');
+      $('li.posts p').text($('li.post p').text().substring(300));
     });
   }
 });
