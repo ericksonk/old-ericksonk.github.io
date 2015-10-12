@@ -7,7 +7,6 @@ body {
     box-sizing: border-box;
 
     .sideTabs {
-      background: thistle;
       float: left;
 
       .tabs {
@@ -18,11 +17,6 @@ body {
     .grid-row {
       width: 90%;
       margin-left: 10%;
-
-      .header {
-        background: thistle;
-        padding: 10px 20px;
-      }
 
       .row-2 {
 
@@ -38,11 +32,9 @@ body {
         }
         .col-1 {
           width: 100% * (2/3);
-          background: thistle;
         }
         .col-2 {
           width: 100% * (1/3);
-          background: thistle;
         }
       }
 
