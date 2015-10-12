@@ -1,11 +1,11 @@
-# How to Avoid Merge Conflicts When working on Feature Branches
+# How to Avoid Merge Conflicts When Working on Feature Branches
 
 1. On GitHub, create a new branch from your `master` branch
   * ex: `release--0.0.1`
 
 1. Locally, `cd` to the correct repo and `git pull`
 
-1. Switch to new branch `git checkout <new_branch>`
+1. Switch to new branch via `git checkout <new_branch>`
   * ex: `git checkout release--0.0.1`
 
 1. On GitHub, create a sub-branch based on your new working branch
@@ -13,7 +13,7 @@
 
 1. Locally, `git pull`
 
-1. Switch to new sub-branch `git checkout <new_sub-branch>`
+1. Switch to new sub-branch via `git checkout <new_sub-branch>`
   * ex: `git checkout feature--`
 
 1. Work locally
