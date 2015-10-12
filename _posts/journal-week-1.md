@@ -1,0 +1,5 @@
+Week One at the Iron Yard has come to a close and a lot has happened in just five short days! We began exploring the wonderful world of JavaScript and even started to grasp basic concepts (control flow, functions, operators and operands, 6 types of JS).
+
+Test Driven Development (TDD) is the process we will use throughout this course to write and test code. Using this method, we write a test ** before ** writing just enough code to pass that test, and then we refactor(reconstruct/simplify) it. This process helps you think through what your requirements and design are before you write a functional code. Breaking down the code-writing process into smaller steps and then simplifying it helps write clean code that works.
+
+While in theory TDD seems like an easy process, I tend to struggle breaking down a problem into small, simple steps. My initial response is to attack the whole thing at once. However, after this past week I am finally starting to see the benefits and logic behind simplifying a problem and taking it one small step at a time.

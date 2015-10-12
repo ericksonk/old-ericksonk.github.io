@@ -94,10 +94,15 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@import 'grid';
 @import 'common';
-@import 'desktop';
+@import 'header';
+@import 'bloglist';
+@import 'nav';
+@import 'about';
 @import 'mobile';
 @import 'tablet';
+
 
 
 

@@ -1,10 +1,12 @@
 {
   "name": "ericksonk.github.io",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --bail"
+    "test": "mocha --bail",
+    "start": "browser-sync start --server --directory --startPath='src/index.html'",
+    "sass":"node-sass src/scss/main.scss src/css/main.css"
   },
   "repository": {
     "type": "git",
