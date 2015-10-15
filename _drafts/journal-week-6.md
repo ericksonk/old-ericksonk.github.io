@@ -1,7 +1,5 @@
-#Potential Topics Week 6
-* APIs
-* Tabs and Panels
-* Building Grids
-* Git Flow ???
-* Lodash ???
-* `<template>`
+Week 6 was definitely a tough one as we approached our halfway point in the program. We spent the week focusing on API's and doing some review. While I have a basic overall understanding of API's, I still feel blurry on how to actually utilize them. As we continue to work on our Etsy project this week, I'm sure I will get the hang of it, but as of right now I still feel confused about what to do.
+
+From building our blog and working on two Blueprints over the weekend, I became more confident with building grids, tabs and panels. From a bonus lecture I was able to see some of the cool things you can do with SASS like `@extent` and using some crazy math operations with-in the .scss file. I could use some more work with jQuery but I'm definitely more comfortable writing it than I was just a few short weeks ago!
+
+Time always seems to be my biggest enemy when tackling these assignments. In order to work on each project, I don't get to dive quite as deep into a subject as I would like, so I feel like I stay in a hazy state of comprehension. Throughout the past 6 weeks my time management skills have improved but I still find it difficult to complete _and_ comprehend all of the things.
