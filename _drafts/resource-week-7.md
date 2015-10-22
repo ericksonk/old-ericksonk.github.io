@@ -1,3 +1,3 @@
-# [Learn Layout- Media Queries] (http://learnlayout.com/media-queries.html)
+# [SPA with AngularJS & Templating] (https://scotch.io/tutorials/single-page-apps-with-angularjs-routing-and-templating)
 
-**tl;dr** Media queries make your website _responsive_. Responsive Design is the process of making a website respond to the device and browser it is being viewed on. 
+**tl;dr** Good starting point for creating single page apps and using `ngRoute` with angular
