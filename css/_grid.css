@@ -1,0 +1,8 @@
+.grid {
+  width: auto;
+}
+
+.grid [class*="column"] {
+  float: left;
+  width: 8.33%;
+}
