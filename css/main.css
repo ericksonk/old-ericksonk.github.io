@@ -106,57 +106,24 @@ textarea {
 body {
   width: auto;
   font-family: 'Raleway', Calibri, Arial, sans-serif; }
+  body p {
+    margin-bottom: 1.3em; }
+  body h1, body h2, body h3, body h4 {
+    margin: 1.414em 0 0.5em;
+    font-weight: inherit;
+    line-height: 1.2; }
+  body h1 {
+    margin-top: 0;
+    font-size: 6.854em; }
+  body h2 {
+    font-size: 4.236em; }
+  body h3 {
+    font-size: 2.618em; }
+  body h4 {
+    font-size: 1.618em; }
   body main.container {
     margin: 0 10px;
     box-sizing: border-box; }
-    body main.container .sideTabs {
-      float: left; }
-      body main.container .sideTabs .tabs {
-        list-style-type: none; }
-    body main.container .grid-row {
-      width: 90%;
-      margin-left: 10%; }
-      body main.container .grid-row .row-2 [class*="col-"] {
-        box-sizing: border-box;
-        display: block;
-        float: left;
-        padding-right: 20px; }
-        body main.container .grid-row .row-2 [class*="col-"]:last-child {
-          padding-right: 0; }
-      body main.container .grid-row .row-2 .col-1 {
-        width: 66.66667%; }
-      body main.container .grid-row .row-2 .col-2 {
-        width: 33.33333%; }
-
-.row-1.header {
-  padding-bottom: 70px; }
-  .row-1.header h1 {
-    text-transform: uppercase;
-    font-size: 1em; }
-
-ul.blogs {
-  list-style-type: none; }
-  ul.blogs li.posts {
-    border-bottom: 1px solid black;
-    padding-bottom: 10px; }
-    ul.blogs li.posts h2 {
-      text-transform: uppercase; }
-      ul.blogs li.posts h2 a {
-        text-decoration: none;
-        color: black; }
-    ul.blogs li.posts a.readMore {
-      text-decoration: none;
-      color: lightgray; }
-
-.sideTabs ul.tabs li {
-  text-transform: uppercase;
-  line-height: 2; }
-  .sideTabs ul.tabs li a {
-    text-decoration: none;
-    color: black; }
-
-aside.col-2 h4 {
-  text-transform: uppercase; }
 
 /* ==========================================================================
    Helper classes

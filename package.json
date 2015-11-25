@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha --bail",
     "start": "browser-sync start --server --directory --startPath='index.html'",
-    "sass":"node-sass src/scss/main.scss src/css/main.css"
+    "sass":"node-sass scss/main.scss css/main.css"
   },
   "repository": {
     "type": "git",
