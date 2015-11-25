@@ -88,3 +88,7 @@ body {
       margin: 0;
       background: #000;
       color: #FFF; }
+    body main.container .about-deets .sm-icons i {
+      padding-right: 0.5em; }
+      body main.container .about-deets .sm-icons i:first-child {
+        padding-left: 0.2em; }
