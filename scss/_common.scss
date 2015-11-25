@@ -5,39 +5,5 @@ body {
   main.container {
     margin: 0 10px;
     box-sizing: border-box;
-
-    .sideTabs {
-      float: left;
-
-      .tabs {
-        list-style-type: none;
-      }
-    }
-
-    .grid-row {
-      width: 90%;
-      margin-left: 10%;
-
-      .row-2 {
-
-        [class*="col-"] {
-          box-sizing: border-box;
-          display: block;
-          float: left;
-          padding-right: 20px;
-
-          &:last-child {
-            padding-right: 0;
-          }
-        }
-        .col-1 {
-          width: 100% * (2/3);
-        }
-        .col-2 {
-          width: 100% * (1/3);
-        }
-      }
-
-    }
   }
 }
