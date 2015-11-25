@@ -48,17 +48,38 @@ body {
     padding: 1em 0; }
     body header nav {
       width: 80%;
-      margin: 0 auto; }
+      margin: 0 auto;
+      text-align: right; }
       body header nav a[href] {
         color: #FFF;
-        text-decoration: none; }
+        text-decoration: none;
+        width: 25%;
+        text-transform: uppercase;
+        padding: 0 1em; }
+        body header nav a[href]:first-child {
+          padding-left: 0; }
+        body header nav a[href]:last-child {
+          padding-right: 0; }
         body header nav a[href]:hover {
           text-decoration: underline; }
   body main.container {
     max-width: 80%;
     margin: 0 auto;
     box-sizing: border-box;
-    padding-top: 1em; }
+    padding-top: 3em; }
+    body main.container .grid-row {
+      width: 100%;
+      display: table;
+      content: "";
+      clear: both; }
+      body main.container .grid-row [class*="col-"] {
+        box-sizing: border-box;
+        float: left;
+        padding-right: 1em; }
+        body main.container .grid-row [class*="col-"]:last-child {
+          padding-right: 0; }
+      body main.container .grid-row .col-1-2 {
+        width: 50%; }
     body main.container .about-me h1 {
       font-weight: 700;
       margin: 0;

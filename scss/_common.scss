@@ -36,10 +36,20 @@ body {
     nav {
       width: 80%;
       margin: 0 auto;
+      text-align: right;
       a[href] {
         color: #FFF;
         text-decoration: none;
+        width: 100% * (1/4);
+        text-transform: uppercase;
+        padding: 0 1em;
 
+        &:first-child {
+          padding-left: 0;
+        }
+        &:last-child {
+          padding-right: 0;
+        }
         &:hover {
           text-decoration: underline;
         }
@@ -50,7 +60,28 @@ body {
     max-width: 80%;
     margin: 0 auto;
     box-sizing: border-box;
-    padding-top: 1em;
+    padding-top: 3em;
+
+    // BASIC LAYOUT
+    .grid-row {
+      width: 100%;
+      display: table;
+      content: "";
+      clear: both;
+
+      [class*="col-"] {
+        box-sizing: border-box;
+        float: left;
+        padding-right: 1em;
+
+        &:last-child {
+          padding-right: 0;
+        }
+      }
+      .col-1-2 {
+        width: 100% * (1/2);
+      }
+    } // END basic layout
 
     .about-me {
       h1 {
