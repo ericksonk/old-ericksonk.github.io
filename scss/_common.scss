@@ -32,6 +32,7 @@ body {
     // background: #04A466;
     background: #000;
     padding: 1em 0;
+    position: fixed;
 
     nav {
       width: 80%;
@@ -93,7 +94,9 @@ body {
         // outline: 1px solid black;
       }
     } // END basic layout
-
+    .about-height {
+      height: 100vh;
+    }
     .about-me {
       h1 {
         font-weight: 700;
@@ -119,6 +122,9 @@ body {
       }
     }
     .projects {
+      h2 {
+        margin: 0;
+      }
       h3 {
         margin: 0;
         background: #000;
@@ -127,7 +133,7 @@ body {
       .image {
         img {
           width: 100%;
-          // border: 3px solid black;
+          box-shadow: 3px 3px 5px #ccc;
         }
       }
     }
