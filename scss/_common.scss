@@ -78,8 +78,19 @@ body {
           padding-right: 0;
         }
       }
+
       .col-1-2 {
         width: 100% * (1/2);
+      }
+
+      .col-1-3 {
+        width: 100% * (1/3);
+        // outline: 1px solid black;
+      }
+
+      .col-2-3 {
+        width: 100% * (2/3);
+        // outline: 1px solid black;
       }
     } // END basic layout
 
@@ -104,6 +115,19 @@ body {
           &:first-child {
             padding-left: 0.2em;
           }
+        }
+      }
+    }
+    .projects {
+      h3 {
+        margin: 0;
+        background: #000;
+        color: #FFF;
+      }
+      .image {
+        img {
+          width: 100%;
+          // border: 3px solid black;
         }
       }
     }
