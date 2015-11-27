@@ -86,11 +86,14 @@ body {
       body main.container .grid-row .col-2-3 {
         width: 66.66667%; }
     body main.container .about-height {
-      height: 100vh; }
+      height: 100vh;
+      margin-top: 5em; }
     body main.container .about-me h1 {
       font-weight: 700;
       margin: 0;
       line-height: 1; }
+    body main.container .about-me p {
+      font-size: 1.5vw; }
     body main.container .about-deets h3 {
       margin: 0;
       background: #000;

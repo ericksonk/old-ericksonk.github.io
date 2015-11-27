@@ -94,14 +94,20 @@ body {
         // outline: 1px solid black;
       }
     } // END basic layout
+
+    //HOME SECTION
     .about-height {
       height: 100vh;
+      margin-top: 5em;
     }
     .about-me {
       h1 {
         font-weight: 700;
         margin: 0;
         line-height: 1;
+      }
+      p {
+        font-size: 1.5vw;
       }
     }
     .about-deets {
@@ -120,7 +126,8 @@ body {
           }
         }
       }
-    }
+    } // END home section
+
     .projects {
       h2 {
         margin: 0;
