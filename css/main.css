@@ -108,6 +108,8 @@ body {
       margin: 0;
       background: #000;
       color: #FFF; }
-    body main.container .projects .image img {
-      width: 100%;
-      box-shadow: 3px 3px 5px #ccc; }
+    body main.container .projects .image {
+      padding-bottom: 1.5em; }
+      body main.container .projects .image img {
+        width: 100%;
+        box-shadow: 3px 3px 5px #ccc; }
