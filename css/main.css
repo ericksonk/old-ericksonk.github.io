@@ -95,6 +95,10 @@ body {
       line-height: 1; }
     body main.container .about-me p {
       font-size: 1.5vw; }
+      body main.container .about-me p a[href] {
+        color: #000; }
+        body main.container .about-me p a[href]:hover {
+          color: gray; }
     body main.container .about-deets h3 {
       margin: 0;
       background: #000;

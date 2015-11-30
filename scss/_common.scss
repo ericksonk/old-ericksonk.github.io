@@ -109,6 +109,14 @@ body {
       }
       p {
         font-size: 1.5vw;
+
+        a[href] {
+          color: #000;
+
+          &:hover {
+            color: gray;
+          }
+        }
       }
     }
     .about-deets {
