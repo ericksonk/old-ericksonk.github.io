@@ -115,8 +115,22 @@ body {
       padding-bottom: 1.5em; }
       body main.container .projects .image img {
         width: 100%;
-        box-shadow: 3px 3px 5px #ccc; }
+        border: 2px solid black; }
+    body main.container .projects .description a.bttn {
+      text-decoration: none;
+      color: #000;
+      text-transform: uppercase;
+      border: 2px solid black;
+      padding: 5px; }
+      body main.container .projects .description a.bttn:hover {
+        color: #FFF;
+        background: #000; }
+    body main.container .projects .description p a[href] {
+      color: #000; }
+      body main.container .projects .description p a[href]:hover {
+        color: gray; }
     body main.container #contact {
+      height: 100vh;
       margin-bottom: 3em; }
       body main.container #contact a[href] {
         display: block;
