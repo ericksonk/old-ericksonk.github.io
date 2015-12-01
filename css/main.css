@@ -107,10 +107,9 @@ body {
       padding-right: 0.5em; }
       body main.container .about-deets .sm-icons i:first-child {
         padding-left: 0.2em; }
-    body main.container #portfolio {
-      padding-top: 3em; }
     body main.container .projects h2 {
-      margin-top: 0; }
+      background: #000;
+      color: #FFF; }
     body main.container .projects h3 {
       margin: 0;
       background: #000;
@@ -136,6 +135,9 @@ body {
     body main.container #contact {
       height: 100vh;
       margin-bottom: 3em; }
+      body main.container #contact h2 {
+        background: #000;
+        color: #FFF; }
       body main.container #contact a[href] {
         display: block;
         text-decoration: none;

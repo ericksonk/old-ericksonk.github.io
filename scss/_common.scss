@@ -138,11 +138,11 @@ body {
     } // END home section
 
     #portfolio {
-      padding-top: 3em;
     }
     .projects {
       h2 {
-        margin-top: 0;
+        background: #000;
+        color: #FFF;
       }
 
       h3 {
@@ -192,6 +192,12 @@ body {
     #contact {
       height: 100vh;
       margin-bottom: 3em;
+
+      h2 {
+        background: #000;
+        color: #FFF;
+      }
+
       a[href] {
         display: block;
         text-decoration: none;
