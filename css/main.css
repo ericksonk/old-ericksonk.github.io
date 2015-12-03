@@ -132,21 +132,21 @@ body {
       color: #000; }
       body main.container .projects .description p a[href]:hover {
         color: gray; }
-    body main.container #contact {
+    body main.container #k-contact {
       height: 100vh;
       margin-bottom: 3em; }
-      body main.container #contact h2 {
+      body main.container #k-contact h2 {
         background: #000;
         color: #FFF; }
-      body main.container #contact a[href] {
+      body main.container #k-contact a[href] {
         display: block;
         text-decoration: none;
         background: #000;
         color: #FFF;
         font-size: 1.5em; }
-        body main.container #contact a[href]:hover {
+        body main.container #k-contact a[href]:hover {
           text-decoration: underline;
           cursor: pointer; }
-      body main.container #contact i {
+      body main.container #k-contact i {
         padding-right: .5em;
         padding-left: .5em; }
