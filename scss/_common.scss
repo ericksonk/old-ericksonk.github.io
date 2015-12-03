@@ -127,8 +127,13 @@ body {
       }
 
       .sm-icons {
+        a[href]{
+          text-decoration: none;
+        }
+        
         i {
-          padding-right: 0.5em;
+          padding-right: 0.3em;
+          color: #FFF;
 
           &:first-child {
             padding-left: 0.2em;
@@ -181,6 +186,14 @@ body {
               color: gray;
             }
           }
+        }
+      }
+
+      .bitterfit {
+        img {
+          width: 70%;
+          display: block;
+          margin: 0 auto;
         }
       }
     } // END portfolio

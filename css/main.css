@@ -103,8 +103,11 @@ body {
       margin: 0;
       background: #000;
       color: #FFF; }
+    body main.container .about-deets .sm-icons a[href] {
+      text-decoration: none; }
     body main.container .about-deets .sm-icons i {
-      padding-right: 0.5em; }
+      padding-right: 0.3em;
+      color: #FFF; }
       body main.container .about-deets .sm-icons i:first-child {
         padding-left: 0.2em; }
     body main.container #k-portfolio h2 {
@@ -131,6 +134,10 @@ body {
       color: #000; }
       body main.container #k-portfolio .description p a[href]:hover {
         color: gray; }
+    body main.container #k-portfolio .bitterfit img {
+      width: 70%;
+      display: block;
+      margin: 0 auto; }
     body main.container #k-contact {
       height: 100vh;
       margin-bottom: 3em; }
