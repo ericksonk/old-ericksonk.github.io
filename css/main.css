@@ -86,73 +86,86 @@ body {
         width: 33.33333%; }
       body main.container .grid-row .col-2-3 {
         width: 66.66667%; }
-    body main.container .about-height {
-      height: 100vh;
-      padding-top: 9em; }
-    body main.container .about-me h1 {
-      font-weight: 700;
-      margin: 0;
-      line-height: 1; }
-    body main.container .about-me p {
-      font-size: 1.5vw; }
-      body main.container .about-me p a[href] {
-        color: #000; }
-        body main.container .about-me p a[href]:hover {
-          color: gray; }
-    body main.container .about-deets h3 {
-      margin: 0;
-      background: #000;
-      color: #FFF; }
-    body main.container .about-deets .sm-icons a[href] {
-      text-decoration: none; }
-    body main.container .about-deets .sm-icons i {
-      padding-right: 0.3em;
-      color: #FFF; }
-      body main.container .about-deets .sm-icons i:first-child {
-        padding-left: 0.2em; }
-    body main.container #k-portfolio h2 {
-      background: #000;
-      color: #FFF; }
-    body main.container #k-portfolio h3 {
-      margin: 0;
-      background: #000;
-      color: #FFF; }
-    body main.container #k-portfolio .image {
-      padding-bottom: 1.5em; }
-      body main.container #k-portfolio .image img {
-        width: 100%; }
-    body main.container #k-portfolio .description a.bttn {
-      text-decoration: none;
-      color: #000;
-      text-transform: uppercase;
-      border: 2px solid black;
-      padding: 5px; }
-      body main.container #k-portfolio .description a.bttn:hover {
-        color: #FFF;
-        background: #000; }
-    body main.container #k-portfolio .description p a[href] {
-      color: #000; }
-      body main.container #k-portfolio .description p a[href]:hover {
-        color: gray; }
-    body main.container #k-portfolio .bitterfit img {
-      width: 70%;
-      display: block;
-      margin: 0 auto; }
-    body main.container #k-contact {
-      height: 100vh;
-      margin-bottom: 3em; }
-      body main.container #k-contact h2 {
-        background: #000;
-        color: #FFF; }
-      body main.container #k-contact a[href] {
-        display: block;
-        text-decoration: none;
-        background: #000;
-        color: #FFF;
-        font-size: 1.5em; }
-        body main.container #k-contact a[href]:hover {
-          text-decoration: underline;
-          cursor: pointer; }
-      body main.container #k-contact i {
-        padding-right: .5em;
-        padding-left: .5em; }
+
+.about-height {
+  height: 100vh;
+  padding-top: 9em; }
+
+.about-me h1 {
+  font-weight: 700;
+  margin: 0;
+  line-height: 1; }
+
+.about-me p {
+  font-size: 1.5vw; }
+  .about-me p a[href] {
+    color: #000; }
+    .about-me p a[href]:hover {
+      color: gray; }
+
+.about-deets h3 {
+  margin: 0;
+  background: #000;
+  color: #FFF; }
+
+.about-deets .sm-icons a[href] {
+  text-decoration: none; }
+
+.about-deets .sm-icons i {
+  padding-right: 0.3em;
+  color: #FFF; }
+  .about-deets .sm-icons i:first-child {
+    padding-left: 0.2em; }
+
+#k-portfolio h2 {
+  background: #000;
+  color: #FFF; }
+
+#k-portfolio h3 {
+  margin: 0;
+  background: #000;
+  color: #FFF; }
+
+#k-portfolio .image {
+  padding-bottom: 1.5em; }
+  #k-portfolio .image img {
+    width: 100%; }
+
+#k-portfolio .description a.bttn {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  border: 2px solid black;
+  padding: 5px; }
+  #k-portfolio .description a.bttn:hover {
+    color: #FFF;
+    background: #000; }
+
+#k-portfolio .description p a[href] {
+  color: #000; }
+  #k-portfolio .description p a[href]:hover {
+    color: gray; }
+
+#k-portfolio .bitterfit img {
+  width: 70%;
+  display: block;
+  margin: 0 auto; }
+
+#k-contact {
+  height: 100vh;
+  margin-bottom: 3em; }
+  #k-contact h2 {
+    background: #000;
+    color: #FFF; }
+  #k-contact a[href] {
+    display: block;
+    text-decoration: none;
+    background: #000;
+    color: #FFF;
+    font-size: 1.5em; }
+    #k-contact a[href]:hover {
+      text-decoration: underline;
+      cursor: pointer; }
+  #k-contact i {
+    padding-right: .5em;
+    padding-left: .5em; }

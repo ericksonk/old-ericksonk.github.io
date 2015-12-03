@@ -1,0 +1,55 @@
+//HOME SECTION
+.about-height {
+  height: 100vh;
+  padding-top: 9em;
+}
+.about-me {
+  h1 {
+    font-weight: 700;
+    margin: 0;
+    line-height: 1;
+  }
+  p {
+    font-size: 1.5vw;
+
+    a[href] {
+      color: #000;
+
+      &:hover {
+        color: gray;
+      }
+    }
+  }
+}
+.about-deets {
+  h3 {
+    margin: 0;
+    background: #000;
+    color: #FFF;
+  }
+
+  .sm-icons {
+    a[href]{
+      text-decoration: none;
+    }
+
+    i {
+      padding-right: 0.3em;
+      color: #FFF;
+
+      &:first-child {
+        padding-left: 0.2em;
+      }
+    }
+  }
+} // END home section
+
+// TABLET VIEW
+@media screen and (max-width: 1024px) {
+
+} // END tablet
+
+// MOBILE VIEW
+@media screen and (max-width: 736px) {
+
+} // END mobile

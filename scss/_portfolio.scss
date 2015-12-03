@@ -1,0 +1,66 @@
+#k-portfolio {
+  h2 {
+    background: #000;
+    color: #FFF;
+  }
+
+  h3 {
+    margin: 0;
+    background: #000;
+    color: #FFF;
+  }
+
+  .image {
+    padding-bottom: 1.5em;
+    img {
+      width: 100%;
+      // box-shadow: 3px 3px 5px #ccc;
+      // border: 2px solid black;
+      // border-style: double;
+    }
+  }
+
+  .description {
+    a.bttn {
+      text-decoration: none;
+      color: #000;
+      text-transform: uppercase;
+      border: 2px solid black;
+      padding: 5px;
+
+      &:hover {
+        color: #FFF;
+        background: #000;
+      }
+    }
+
+    p {
+      a[href] {
+        color: #000;
+
+        &:hover {
+          color: gray;
+        }
+      }
+    }
+  }
+
+  .bitterfit {
+    img {
+      width: 70%;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+} // END portfolio
+
+
+// TABLET VIEW
+@media screen and (max-width: 1024px) {
+
+} // END tablet
+
+// MOBILE VIEW
+@media screen and (max-width: 736px) {
+
+} // END mobile
