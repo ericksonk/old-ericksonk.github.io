@@ -79,5 +79,23 @@
 
 // MOBILE VIEW
 @media screen and (max-width: 736px) {
-
+  #k-home {
+    .about-height {
+      padding-top: 3em;
+    }
+    .about-me {
+      h1 {
+        margin-bottom: .7em;
+      }
+      p {
+        font-size: 14px;
+        display: none;
+      }
+    }
+    .about-deets {
+      h3 {
+        font-size: 7vw;
+      }
+    }
+  }
 } // END mobile
