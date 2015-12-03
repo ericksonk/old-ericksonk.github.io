@@ -121,15 +121,19 @@ body {
   background: #000;
   color: #FFF; }
 
+#k-portfolio article.showcase {
+  display: table;
+  content: "";
+  clear: both;
+  margin-bottom: 2em; }
+
 #k-portfolio h3 {
   margin: 0;
   background: #000;
   color: #FFF; }
 
-#k-portfolio .image {
-  padding-bottom: 1.5em; }
-  #k-portfolio .image img {
-    width: 100%; }
+#k-portfolio .image img {
+  width: 100%; }
 
 #k-portfolio .description a.bttn {
   text-decoration: none;
