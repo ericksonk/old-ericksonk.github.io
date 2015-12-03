@@ -46,7 +46,39 @@
 
 // TABLET VIEW
 @media screen and (max-width: 1024px) {
+  #k-home {
+    .col-1-2 {
+      width: 100%;
+      display: block;
+    }
 
+    .about-me {
+      h1 {
+        font-size: 6em;
+        display: inline-block;
+
+        &:first-child {
+          padding-right: .1em;
+        }
+      }
+      p {
+        position: relative;
+        top: 60px;
+      }
+    } // END about-me
+
+    .about-deets {
+      h3.title {
+        position: relative;
+        bottom: 90px;
+        padding-right: 0;
+      }
+
+      .sm-icons {
+        margin-top: 1em;
+      }
+    }
+  }
 } // END tablet
 
 // MOBILE VIEW
