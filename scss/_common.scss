@@ -138,8 +138,6 @@ body {
     } // END home section
 
     #k-portfolio {
-    }
-    .projects {
       h2 {
         background: #000;
         color: #FFF;
@@ -156,13 +154,12 @@ body {
         img {
           width: 100%;
           // box-shadow: 3px 3px 5px #ccc;
-          border: 2px solid black;
+          // border: 2px solid black;
           // border-style: double;
         }
       }
 
       .description {
-
         a.bttn {
           text-decoration: none;
           color: #000;

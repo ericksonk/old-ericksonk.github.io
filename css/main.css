@@ -107,30 +107,29 @@ body {
       padding-right: 0.5em; }
       body main.container .about-deets .sm-icons i:first-child {
         padding-left: 0.2em; }
-    body main.container .projects h2 {
+    body main.container #k-portfolio h2 {
       background: #000;
       color: #FFF; }
-    body main.container .projects h3 {
+    body main.container #k-portfolio h3 {
       margin: 0;
       background: #000;
       color: #FFF; }
-    body main.container .projects .image {
+    body main.container #k-portfolio .image {
       padding-bottom: 1.5em; }
-      body main.container .projects .image img {
-        width: 100%;
-        border: 2px solid black; }
-    body main.container .projects .description a.bttn {
+      body main.container #k-portfolio .image img {
+        width: 100%; }
+    body main.container #k-portfolio .description a.bttn {
       text-decoration: none;
       color: #000;
       text-transform: uppercase;
       border: 2px solid black;
       padding: 5px; }
-      body main.container .projects .description a.bttn:hover {
+      body main.container #k-portfolio .description a.bttn:hover {
         color: #FFF;
         background: #000; }
-    body main.container .projects .description p a[href] {
+    body main.container #k-portfolio .description p a[href] {
       color: #000; }
-      body main.container .projects .description p a[href]:hover {
+      body main.container #k-portfolio .description p a[href]:hover {
         color: gray; }
     body main.container #k-contact {
       height: 100vh;
