@@ -58,10 +58,37 @@
 
 // TABLET VIEW
 @media screen and (max-width: 1024px) {
-
+  #k-portfolio {
+    article {
+      .col-2-3, .col-1-3 {
+        width: 100% * (1/2);
+      }
+    }
+  }
 } // END tablet
 
 // MOBILE VIEW
 @media screen and (max-width: 736px) {
-
+  #k-portfolio {
+    article {
+      .col-2-3 {
+        width: 100% * (2/3);
+      }
+      .col-1-3 {
+        width: 100% * (1/3);
+      }
+      .description {
+        h3 {
+          font-size: 6vw;
+        }
+        p {
+          display: none;
+        }
+        a[href] {
+          display: block;
+          margin-top: .5em;
+        }
+      }
+    }
+  }
 } // END mobile
