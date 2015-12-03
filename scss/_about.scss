@@ -50,11 +50,12 @@
     .col-1-2 {
       width: 100%;
       display: block;
+      padding-right: 0;
     }
 
     .about-me {
       h1 {
-        font-size: 6em;
+        font-size: 10vw;
         display: inline-block;
 
         &:first-child {
@@ -62,20 +63,25 @@
         }
       }
       p {
-        position: relative;
-        top: 60px;
+        // position: relative;
+        // top: 60px;
+        font-size: 20px;
+        padding-bottom: .5em;
       }
     } // END about-me
 
     .about-deets {
-      h3.title {
-        position: relative;
-        bottom: 90px;
-        padding-right: 0;
+      h3 {
+        // .title {}
+        // position: relative;
+        // bottom: 90px;
+        // padding-right: 0;
+        margin-bottom: .7em;
+        margin-right: 0;
       }
 
       .sm-icons {
-        margin-top: 1em;
+        // margin-top: 1em;
       }
     }
   }
