@@ -8,7 +8,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,900,200' rel='stylesheet' type='text/css'>
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
@@ -16,112 +17,103 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-      <main class="container">
-
-        <nav class=sideTabs>
-          <ul class="tabs">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
+      <header class="page-nav">
+        <nav class="tabs">
+            <a href="#home" class="show-home">Home</a>
+            <a href="#portfolio" class="folio">Portfolio</a>
+            <a href="#contact" class="contact-me">Contact</a>
         </nav>
-
-        <section class="grid-row">
-
-          <section class="row-1 header">
-            <h1>Kristine Erickson</h1>
+      </header>
+      <main class="container">
+        <div class="about-height" id="k-home">
+          <section class="about-me grid-row">
+            <div class="col-1-2">
+              <h1>Kristine</h1>
+              <h1>Erickson</h1>
+            </div>
+            <div class="col-1-2">
+              <p>I'm a front end developer in the Raleigh/Durham area. As a recent
+                graduate of <a href="http://theironyard.com/" target="_blank">The
+                Iron Yard</a> code academy, I'm currently seeking a postion where
+                I can continue to refine my skills as a programmer. I am passionate
+                about web design and building pleasant online experiences. When
+                not stationed in front of a computer I enjoy crafting, trips to
+                to the movies, live music and bad puns.</p>
+            </div>
           </section>
+          <section class="about-deets grid-row">
+            <div class="col-1-2">
+              <h3>Front End Developer</h3>
+            </div>
+            <div class="col-1-2 sm-icons">
+              <h3>
+                <a href="https://github.com/ericksonk" target="_blank">
+                  <i class="fa fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/kristineerickson11" target="_blank">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com/ludakris_" target="_blank">
+                  <i class="fa fa-twitter"></i>
+                </a>
+                <a href="mailto:ericksonk09@gmail.com" target="_blank">
+                  <i class="fa fa-envelope-o"></i>
+                </a>
+              </h3>
+            </div>
+          </section>
+        </div>
 
-          <section class="row-2">
-            <section class="col-1">
-              <ul class="blogs">
-                <li class="posts">
-                  <h2><a href="postPage-1" class="blogHeader">Super Interesting Blog Topic</a></h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <a href="#postPage-1" class="readMore">Continue reading</a>
-                    <span class="date">Date</span>
-                </li>
-                <li class="posts">
-                  <h2><a href="postPage-2" class="blogHeader">Super Interesting Blog Topic</a></h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <a href="#postPage-2" class="readMore">Continue reading</a>
-                    <span class="date">Date</span>
-                </li>
-                <li class="posts">
-                  <h2><a href="postPage-3" class="blogHeader">Super Interesting Blog Topic</a></h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <a href="#postPage-3" class="readMore">Continue reading</a>
-                    <span class="date">Date</span>
-                </li>
-                <li class="posts">
-                  <h2><a href="postPage-4" class="blogHeader">Super Interesting Blog Topic</a></h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <a href="#postPage-4" class="readMore">Continue reading</a>
-                    <span class="date">Date</span>
-                </li>
-                <li class="posts">
-                  <h2><a href="postPage-5" class="blogHeader">Super Interesting Blog Topic</a></h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <a href="#postPage-5" class="readMore">Continue reading</a>
-                    <span class="date">Date</span>
-                </li>
-                <li class="posts">
-                  <h2><a href="postPage-6" class="header">Super Interesting Blog Topic</a></h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <a href="#postPage-6" class="readMore">Continue reading</a>
-                    <span class="date">Date</span>
-                </li>
-                <li class="posts">
-                  <h2><a href="postPage-7" class="blogHeader">Super Interesting Blog Topic</a></h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <a href="#postPage-7" class="readMore">Continue reading</a>
-                    <span class="date">Date</span>
-                </li>
-                <li class="posts">
-                  <h2><a href="postPage-8" class="blogHeader">Super Interesting Blog Topic</a></h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <a href="#postPage-8" class="readMore">Continue reading</a>
-                    <span class="date">Date</span>
-                </li>
-                <li class="posts">
-                  <h2><a href="postPage-9" class="blogHeader">Super Interesting Blog Topic</a></h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <a href="#postPage-9" class="readMore">Continue reading</a>
-                    <span class="date">Date</span>
-                </li>
-                <li class="posts">
-                  <h2><a href="postPage-10" class="blogHeader">Super Interesting Blog Topic</a></h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <a href="#postPage-10" class="readMore">Continue reading</a>
-                    <span class="date">Date</span>
-                </li>
-                <li class="posts">
-                  <h2><a href="postPage-11" class="blogHeader">Super Interesting Blog Topic</a></h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <a href="#postPage-11" class="readMore">Continue reading</a>
-                    <span class="date">Date</span>
-                </li>
-                <li class="posts">
-                  <h2><a href="postPage-12" class="blogHeader">Super Interesting Blog Topic</a></h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <a href="#postPage-12" class="readMore">Continue reading</a>
-                    <span class="date">Date</span>
-                </li>
-              </ul>
+        <section class="projects grid-row" id="k-portfolio">
+          <h2>Porfolio</h2>
+            <section class="showcase beehive">
+              <div class="col-2-3 image">
+                <a href="https://thebeehive.herokuapp.com/" target="_blank" class="bttn">
+                  <img src="/img/beehive2.png">
+                </a>
+              </div>
+              <div class="col-1-3 description">
+                <h3>Beehive</h3>
+                <p>Beehive is an e-commerce site that connects consumers with artisians
+                  and their unique products. Powered by the Spoonflower API, buyers
+                  can customize any item by choosing a unique <a href="http://www.spoonflower.com" target="_blank">Spoonflower</a>
+                  fabric design. Beehive is a Rails application built in two weeks
+                  as a part of The Iron Yard Durham Cohort 5 Demo Day. As the sole
+                  front end developer on the team, I was resonsible for all aspects
+                  of design and user interface.</p>
+                  <a href="https://thebeehive.herokuapp.com/" target="_blank" class="bttn">View Site</a>
+                  <a href="https://github.com/the-beehive/beehive" target="_blank" class="bttn">Source Code</a>
+              </div>
             </section>
-            <aside class="col-2 socialMedia">
-              <h4><a href="#about">About</a></h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </aside>
-          </section>
-
+            <section class="showcase bitterfit">
+              <div class="col-2-3 image">
+                <a href="https://bitter-fit.firebaseapp.com/#/" target="_blank" class="bttn">
+                  <img src="/img/bitterfit-mobile.png">
+                </a>
+              </div>
+              <div class="col-1-3 description">
+                <h3>Bitter-fit</h3>
+                <p>Bitter-fit is a personalized stat-tracker and collaborative project with the Python class at The Iron Yard. It is a single-page application built using AngularJS over the course of 3 nights. It calls to a Django API built by our Python group members. User's can add daily activities and keep track of their progress. My partner and I were responsible for all things involving the graphic user interface including jQuery, Angular, Sass and HTML.</p>
+                  <a href="https://bitter-fit.firebaseapp.com/#/" target="_blank" class="bttn">View Site</a>
+                  <a href="https://github.com/The-Breakfast-Club/gui1" target="_blank" class="bttn">Source Code</a>
+              </div>
+            </section>
         </section>
+
+        <section class="grid-row contact-info" id="k-contact">
+          <h2>Contact</h2>
+          <a href="https://github.com/ericksonk" target="_blank"><i class="fa fa-github"></i>github.com/ericksonk</a>
+          <a href="mailto:ericksonk09@gmail.com" target="_blank"><i class="fa fa-envelope-o"></i>ericksonk09@gmail.com</a>
+          <a href="https://www.linkedin.com/in/kristineerickson11" target="_blank"><i class="fa fa-linkedin"></i>linkedin</a>
+          <a href="https://docs.google.com/document/d/1zA9BTeb0NJLWyL1M0L6ahO2J6crdAmmodHdb8WtANE4/edit#heading=h.wykv9j9r9ssm" target="_blank"><i class="fa fa-file-text-o"></i>Resume</a>
+        </section>
+
       </main>
 
-        <script src="/bower_components/jquery/dist/jquery.js"></script>
-        <script src="/bower_components/lodash/lodash.js"></script>
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/lodash/lodash.js"></script>
         <script src="js/plugins.js"></script>
+        <script src="js/scroll.js"></script>
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

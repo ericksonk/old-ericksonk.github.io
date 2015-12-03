@@ -1,43 +1,230 @@
 body {
-  width: auto;
-  font-family: 'Raleway', Calibri, Arial, sans-serif;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Raleway', sans-serif;
 
-  main.container {
-    margin: 0 10px;
-    box-sizing: border-box;
+  h1, h2, h3, h4 {
+    margin: 1.414em 0 0.5em;
+    font-weight: inherit;
+    line-height: 1.2;
+  }
 
-    .sideTabs {
-      float: left;
+  h1 {
+    margin-top: 0;
+    font-size: 6.854em;
+  }
 
-      .tabs {
-        list-style-type: none;
+  h2 {
+    font-size: 4.236em;
+  }
+
+  h3 {
+    font-size: 2.618em;
+  }
+
+  h4 {
+    font-size: 1.618em;
+  }
+
+  header {
+    width: 100%;
+    // background: #04A466;
+    background: #000;
+    padding: 1em 0;
+    position: fixed;
+    top: 0px;
+
+    nav {
+      width: 80%;
+      margin: 0 auto;
+      text-align: right;
+      a[href] {
+        color: #FFF;
+        text-decoration: none;
+        width: 100% * (1/4);
+        text-transform: uppercase;
+        padding: 0 1em;
+
+        &:first-child {
+          padding-left: 0;
+        }
+        &:last-child {
+          padding-right: 0;
+        }
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
+  }
+  main.container {
+    max-width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 3em;
 
+    // BASIC LAYOUT
     .grid-row {
-      width: 90%;
-      margin-left: 10%;
+      width: 100%;
+      display: table;
+      content: "";
+      clear: both;
 
-      .row-2 {
+      [class*="col-"] {
+        box-sizing: border-box;
+        float: left;
+        padding-right: 1em;
 
-        [class*="col-"] {
-          box-sizing: border-box;
-          display: block;
-          float: left;
-          padding-right: 20px;
-
-          &:last-child {
-            padding-right: 0;
-          }
-        }
-        .col-1 {
-          width: 100% * (2/3);
-        }
-        .col-2 {
-          width: 100% * (1/3);
+        &:last-child {
+          padding-right: 0;
         }
       }
 
+      .col-1-2 {
+        width: 100% * (1/2);
+      }
+
+      .col-1-3 {
+        width: 100% * (1/3);
+        // outline: 1px solid black;
+      }
+
+      .col-2-3 {
+        width: 100% * (2/3);
+        // outline: 1px solid black;
+      }
+    } // END basic layout
+
+    //HOME SECTION
+    .about-height {
+      height: 100vh;
+      padding-top: 9em;
+    }
+    .about-me {
+      h1 {
+        font-weight: 700;
+        margin: 0;
+        line-height: 1;
+      }
+      p {
+        font-size: 1.5vw;
+
+        a[href] {
+          color: #000;
+
+          &:hover {
+            color: gray;
+          }
+        }
+      }
+    }
+    .about-deets {
+      h3 {
+        margin: 0;
+        background: #000;
+        color: #FFF;
+      }
+
+      .sm-icons {
+        a[href]{
+          text-decoration: none;
+        }
+        
+        i {
+          padding-right: 0.3em;
+          color: #FFF;
+
+          &:first-child {
+            padding-left: 0.2em;
+          }
+        }
+      }
+    } // END home section
+
+    #k-portfolio {
+      h2 {
+        background: #000;
+        color: #FFF;
+      }
+
+      h3 {
+        margin: 0;
+        background: #000;
+        color: #FFF;
+      }
+
+      .image {
+        padding-bottom: 1.5em;
+        img {
+          width: 100%;
+          // box-shadow: 3px 3px 5px #ccc;
+          // border: 2px solid black;
+          // border-style: double;
+        }
+      }
+
+      .description {
+        a.bttn {
+          text-decoration: none;
+          color: #000;
+          text-transform: uppercase;
+          border: 2px solid black;
+          padding: 5px;
+
+          &:hover {
+            color: #FFF;
+            background: #000;
+          }
+        }
+
+        p {
+          a[href] {
+            color: #000;
+
+            &:hover {
+              color: gray;
+            }
+          }
+        }
+      }
+
+      .bitterfit {
+        img {
+          width: 70%;
+          display: block;
+          margin: 0 auto;
+        }
+      }
+    } // END portfolio
+
+    // CONTACT INFO
+    #k-contact {
+      height: 100vh;
+      margin-bottom: 3em;
+
+      h2 {
+        background: #000;
+        color: #FFF;
+      }
+
+      a[href] {
+        display: block;
+        text-decoration: none;
+        background: #000;
+        color: #FFF;
+        font-size: 1.5em;
+        // text-align: center;
+
+        &:hover {
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+      i {
+        padding-right: .5em;
+        padding-left: .5em;
+      }
     }
   }
 }
