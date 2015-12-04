@@ -1,6 +1,6 @@
 //HOME SECTION
 .about-height {
-  height: 100vh;
+  height: 80vh;
   padding-top: 9em;
 }
 .about-me {
@@ -49,22 +49,17 @@
 // TABLET VIEW
 @media screen and (max-width: 1024px) {
   #k-home {
+    padding-top: 5em;
     .col-1-2 {
       width: 100%;
       display: block;
       padding-right: 0;
     }
-    .about-height {
-      padding-top: 5em;
-    }
+
     .about-me {
       h1 {
-        font-size: 10vw;
-        display: inline-block;
-
-        &:first-child {
-          padding-right: .1em;
-        }
+        font-size: 10vw !important;
+        display: inline-block !important;
       }
       p {
         font-size: 20px;
@@ -84,16 +79,19 @@
 // MOBILE VIEW
 @media screen and (max-width: 736px) {
   #k-home {
+    padding-top: 3em;
     .about-height {
       padding-top: 3em;
     }
     .about-me {
       h1 {
-        margin-bottom: .7em;
+        font-size: 10vw !important;
+        display: inline-block !important;
       }
       p {
-        font-size: 14px;
-        display: none;
+        // font-size: 14px;
+        // display: none;
+        text-align: left;
       }
     }
     .about-deets {

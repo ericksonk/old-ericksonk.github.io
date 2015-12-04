@@ -92,11 +92,13 @@ body {
     text-align: center; } }
 
 @media screen and (max-width: 358px) {
-  header.page-nav nav.tabs a[href] {
-    padding: 0 0.3em; } }
+  header.page-nav nav.tabs {
+    text-align: center; }
+    header.page-nav nav.tabs a[href] {
+      padding: 0 0.3em; } }
 
 .about-height {
-  height: 100vh;
+  height: 80vh;
   padding-top: 9em; }
 
 .about-me h1 {
@@ -127,34 +129,34 @@ body {
     padding-left: 0.2em; }
 
 @media screen and (max-width: 1024px) {
-  #k-home .col-1-2 {
-    width: 100%;
-    display: block;
-    padding-right: 0; }
-  #k-home .about-height {
+  #k-home {
     padding-top: 5em; }
-  #k-home .about-me h1 {
-    font-size: 10vw;
-    display: inline-block; }
-    #k-home .about-me h1:first-child {
-      padding-right: .1em; }
-  #k-home .about-me p {
-    font-size: 20px;
-    padding-bottom: .5em; }
-  #k-home .about-deets h3 {
-    margin-bottom: .7em;
-    margin-right: 0; } }
+    #k-home .col-1-2 {
+      width: 100%;
+      display: block;
+      padding-right: 0; }
+    #k-home .about-me h1 {
+      font-size: 10vw !important;
+      display: inline-block !important; }
+    #k-home .about-me p {
+      font-size: 20px;
+      padding-bottom: .5em; }
+    #k-home .about-deets h3 {
+      margin-bottom: .7em;
+      margin-right: 0; } }
 
 @media screen and (max-width: 736px) {
-  #k-home .about-height {
+  #k-home {
     padding-top: 3em; }
-  #k-home .about-me h1 {
-    margin-bottom: .7em; }
-  #k-home .about-me p {
-    font-size: 14px;
-    display: none; }
-  #k-home .about-deets h3 {
-    font-size: 7vw; } }
+    #k-home .about-height {
+      padding-top: 3em; }
+    #k-home .about-me h1 {
+      font-size: 10vw !important;
+      display: inline-block !important; }
+    #k-home .about-me p {
+      text-align: left; }
+    #k-home .about-deets h3 {
+      font-size: 7vw; } }
 
 #k-portfolio h2 {
   background: #000;
