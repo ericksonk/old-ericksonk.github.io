@@ -1,0 +1,39 @@
+// CONTACT INFO
+#k-contact {
+  height: 100vh;
+  margin-bottom: 3em;
+
+  h2 {
+    background: #000;
+    color: #FFF;
+  }
+
+  a[href] {
+    display: block;
+    text-decoration: none;
+    background: #000;
+    color: #FFF;
+    font-size: 1.5em;
+    margin-bottom: .5em;
+    padding: .3em 0;
+
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+  i {
+    padding-right: .5em;
+    padding-left: .5em;
+  }
+} // END contact
+
+// TABLET VIEW
+@media screen and (max-width: 1024px) {
+
+} // END tablet
+
+// MOBILE VIEW
+@media screen and (max-width: 736px) {
+
+} // END mobile

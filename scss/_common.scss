@@ -27,6 +27,7 @@ body {
     font-size: 1.618em;
   }
 
+  // NAV BAR
   header {
     width: 100%;
     // background: #04A466;
@@ -57,7 +58,7 @@ body {
         }
       }
     }
-  }
+  } // END header
   main.container {
     max-width: 80%;
     margin: 0 auto;
@@ -95,135 +96,38 @@ body {
         // outline: 1px solid black;
       }
     } // END basic layout
+  } // END main container
+} // END body
 
-    //HOME SECTION
-    .about-height {
-      height: 100vh;
-      padding-top: 9em;
-    }
-    .about-me {
-      h1 {
-        font-weight: 700;
-        margin: 0;
-        line-height: 1;
-      }
-      p {
-        font-size: 1.5vw;
 
-        a[href] {
-          color: #000;
+// TABLET VIEW
+@media screen and (max-width: 1024px) {
+  // main.container {
+  //   max-width: 90%;
+  //   margin: 0 auto;
+  //   box-sizing: border-box;
+  //   padding-top: 3em;
+  // }
 
-          &:hover {
-            color: gray;
-          }
-        }
-      }
-    }
-    .about-deets {
-      h3 {
-        margin: 0;
-        background: #000;
-        color: #FFF;
-      }
+} // END tablet
 
-      .sm-icons {
-        a[href]{
-          text-decoration: none;
-        }
-        
-        i {
-          padding-right: 0.3em;
-          color: #FFF;
-
-          &:first-child {
-            padding-left: 0.2em;
-          }
-        }
-      }
-    } // END home section
-
-    #k-portfolio {
-      h2 {
-        background: #000;
-        color: #FFF;
-      }
-
-      h3 {
-        margin: 0;
-        background: #000;
-        color: #FFF;
-      }
-
-      .image {
-        padding-bottom: 1.5em;
-        img {
-          width: 100%;
-          // box-shadow: 3px 3px 5px #ccc;
-          // border: 2px solid black;
-          // border-style: double;
-        }
-      }
-
-      .description {
-        a.bttn {
-          text-decoration: none;
-          color: #000;
-          text-transform: uppercase;
-          border: 2px solid black;
-          padding: 5px;
-
-          &:hover {
-            color: #FFF;
-            background: #000;
-          }
-        }
-
-        p {
-          a[href] {
-            color: #000;
-
-            &:hover {
-              color: gray;
-            }
-          }
-        }
-      }
-
-      .bitterfit {
-        img {
-          width: 70%;
-          display: block;
-          margin: 0 auto;
-        }
-      }
-    } // END portfolio
-
-    // CONTACT INFO
-    #k-contact {
-      height: 100vh;
-      margin-bottom: 3em;
-
-      h2 {
-        background: #000;
-        color: #FFF;
-      }
-
+// MOBILE VIEW
+@media screen and (max-width: 736px) {
+  header.page-nav {
+    nav.tabs {
+      text-align: center;
       a[href] {
-        display: block;
-        text-decoration: none;
-        background: #000;
-        color: #FFF;
-        font-size: 1.5em;
-        // text-align: center;
-
-        &:hover {
-          text-decoration: underline;
-          cursor: pointer;
-        }
+        // padding: 0 .3em;
       }
-      i {
-        padding-right: .5em;
-        padding-left: .5em;
+    }
+  }
+} // END mobile
+@media screen and (max-width: 358px) {
+  header.page-nav {
+    nav.tabs {
+      text-align: center;
+      a[href] {
+        padding: 0 .3em;
       }
     }
   }
