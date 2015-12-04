@@ -34,6 +34,10 @@
 } // END tablet
 
 // MOBILE VIEW
-@media screen and (max-width: 736px) {
-
+@media screen and (max-width: 430px) {
+  #k-contact {
+    a[href] {
+      font-size: 1.2em;
+    }
+  }
 } // END mobile

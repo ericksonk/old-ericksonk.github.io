@@ -254,3 +254,7 @@ body {
   #k-contact i {
     padding-right: .5em;
     padding-left: .5em; }
+
+@media screen and (max-width: 430px) {
+  #k-contact a[href] {
+    font-size: 1.2em; } }
