@@ -207,7 +207,8 @@ body {
     background: #000; }
 
 #k-portfolio .description p {
-  text-align: justify; }
+  text-align: justify;
+  margin-bottom: 1.3em; }
   #k-portfolio .description p a[href] {
     color: #000; }
     #k-portfolio .description p a[href]:hover {
