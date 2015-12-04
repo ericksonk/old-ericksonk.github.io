@@ -36,6 +36,10 @@
 // MOBILE VIEW
 @media screen and (max-width: 430px) {
   #k-contact {
+    h2 {
+      font-size: 3.5em;
+    }
+    
     a[href] {
       font-size: 1.2em;
     }
