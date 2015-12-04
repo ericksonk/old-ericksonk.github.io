@@ -46,6 +46,20 @@
   }
 } // END home section
 
+@media screen and (max-width: 1190px) {
+  #k-home {
+    .col-1-2 {
+      padding-right: .5em;
+    }
+    h1 {
+      font-size: 6em;
+    }
+    h3 {
+      font-size: 2em;
+    }
+  }
+}
+
 // TABLET VIEW
 @media screen and (max-width: 1024px) {
   #k-home {
@@ -100,4 +114,26 @@
       }
     }
   }
-} // END mobile
+}
+@media screen and (max-width: 611px) {
+  #k-home {
+    .about-me {
+      h1 {
+        display: inline-block;
+        font-size: 9vw !important;
+      }
+      p {
+        font-size: 18px;
+        text-align: justify;
+      }
+    }
+  }
+}
+@media screen and (max-width: 330px) {
+  #k-home {
+    p {
+      font-size: 14px !important;
+    }
+  }
+}
+// END mobile

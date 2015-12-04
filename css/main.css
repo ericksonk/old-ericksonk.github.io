@@ -128,6 +128,14 @@ body {
   .about-deets .sm-icons i:first-child {
     padding-left: 0.2em; }
 
+@media screen and (max-width: 1190px) {
+  #k-home .col-1-2 {
+    padding-right: .5em; }
+  #k-home h1 {
+    font-size: 6em; }
+  #k-home h3 {
+    font-size: 2em; } }
+
 @media screen and (max-width: 1024px) {
   #k-home {
     padding-top: 5em; }
@@ -157,6 +165,18 @@ body {
       text-align: left; }
     #k-home .about-deets h3 {
       font-size: 7vw; } }
+
+@media screen and (max-width: 611px) {
+  #k-home .about-me h1 {
+    display: inline-block;
+    font-size: 9vw !important; }
+  #k-home .about-me p {
+    font-size: 18px;
+    text-align: justify; } }
+
+@media screen and (max-width: 330px) {
+  #k-home p {
+    font-size: 14px !important; } }
 
 #k-portfolio h2 {
   background: #000;
