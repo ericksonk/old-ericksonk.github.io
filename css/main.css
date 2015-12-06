@@ -207,7 +207,8 @@ body {
     background: #000; }
 
 #k-portfolio .description p {
-  text-align: justify; }
+  text-align: justify;
+  margin-bottom: 1.3em; }
   #k-portfolio .description p a[href] {
     color: #000; }
     #k-portfolio .description p a[href]:hover {
@@ -223,6 +224,8 @@ body {
     width: 50%; } }
 
 @media screen and (max-width: 736px) {
+  #k-portfolio h2 {
+    font-size: 3.5em; }
   #k-portfolio article {
     margin-bottom: 3.5em !important; }
     #k-portfolio article .col-2-3, #k-portfolio article .col-1-3 {
@@ -235,7 +238,7 @@ body {
       margin-bottom: .5em; } }
 
 #k-contact {
-  height: 100vh;
+  height: 90vh;
   margin-bottom: 3em; }
   #k-contact h2 {
     background: #000;
@@ -254,3 +257,9 @@ body {
   #k-contact i {
     padding-right: .5em;
     padding-left: .5em; }
+
+@media screen and (max-width: 430px) {
+  #k-contact h2 {
+    font-size: 3.5em; }
+  #k-contact a[href] {
+    font-size: 1.2em; } }

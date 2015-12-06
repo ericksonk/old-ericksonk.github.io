@@ -1,6 +1,6 @@
 // CONTACT INFO
 #k-contact {
-  height: 100vh;
+  height: 90vh;
   margin-bottom: 3em;
 
   h2 {
@@ -34,6 +34,14 @@
 } // END tablet
 
 // MOBILE VIEW
-@media screen and (max-width: 736px) {
-
+@media screen and (max-width: 430px) {
+  #k-contact {
+    h2 {
+      font-size: 3.5em;
+    }
+    
+    a[href] {
+      font-size: 1.2em;
+    }
+  }
 } // END mobile
