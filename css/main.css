@@ -24,6 +24,10 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
 
+html,
+body {
+  height: 100%; }
+
 body {
   width: 100%;
   margin-left: auto;
@@ -65,10 +69,12 @@ body {
         body header nav a[href]:hover {
           text-decoration: underline; }
   body main.container {
-    max-width: 80%;
-    margin: 0 auto;
-    box-sizing: border-box;
-    padding-top: 3em; }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; }
+    body main.container .icon-flipped {
+      transform: scaleX(-1); }
     body main.container .grid-row {
       width: 100%;
       display: table;
@@ -95,7 +101,7 @@ body {
   header.page-nav nav.tabs {
     text-align: center; }
     header.page-nav nav.tabs a[href] {
-      padding: 0 0.3em; } }
+      padding: 0 .3em; } }
 
 .about-height {
   height: 80vh;

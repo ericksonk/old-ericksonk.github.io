@@ -1,5 +1,4 @@
 $(document).ready(function(){
-  console.log('hi kristine :)')
   $(".show-home").click(function(){
     $('html, body').animate({
         scrollTop: $("#k-home").offset().top},
