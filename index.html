@@ -16,7 +16,41 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script>
+            (function(apiKey){
+              (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=[];
+                v=['initialize','identify','updateOptions','pageLoad'];for(w=0,x=v.length;w<x;++w)(function(m){
+                o[m]=o[m]||function(){o._q[m===v[0]?'unshift':'push']([m].concat([].slice.call(arguments,0)));};})(v[w]);
+                y=e.createElement(n);y.async=!0;y.src='https://proxy-test-cdn.pendo-dev.com/agent/static/'+apiKey+'/pendo.js';
+                z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
+
+              // Call this whenever information about your visitors becomes available
+              // Please use Strings, Numbers, or Bools for value types.
+              pendo.initialize({
+                visitor: {
+                  id:              '12345'   // Required if user is logged in
+                  // email:        // Optional
+                  // role:         // Optional
+
+                  // You can add any additional visitor level key-values here,
+                  // as long as it's not one of the above reserved names.
+                },
+
+                account: {
+                  // id:           'ACCOUNT-UNIQUE-ID' // Highly recommended
+                  // name:         // Optional
+                  // planLevel:    // Optional
+                  // planPrice:    // Optional
+                  // creationDate: // Optional
+
+                  // You can add any additional account level key-values here,
+                  // as long as it's not one of the above reserved names.
+                }
+              });
+            })('09b4d956-b422-4ed8-42c8-c5e72467cead');
+      </script>
     </head>
+
     <body>
       <main class="container">
           <h3><i class="em em-building_construction"></i> <i class="em em-construction"></i> coming soon <i class="em em-construction"></i> <i class="icon-flipped em em-building_construction"></i></h3>
@@ -35,5 +69,6 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
+
     </body>
 </html>
