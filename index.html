@@ -16,7 +16,45 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+        <!-- `kristine-test` pendo subscription snippet -->
         <script>
+          (function(apiKey){
+            (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=[];
+              v=['initialize','identify','updateOptions','pageLoad'];for(w=0,x=v.length;w<x;++w)(function(m){
+              o[m]=o[m]||function(){o._q[m===v[0]?'unshift':'push']([m].concat([].slice.call(arguments,0)));};})(v[w]);
+              y=e.createElement(n);y.async=!0;y.src='https://pendo-test-static.storage.googleapis.com/agent/static/'+apiKey+'/pendo.js';
+              z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
+
+            // Call this whenever information about your visitors becomes available
+            // Please use Strings, Numbers, or Bools for value types.
+            pendo.initialize({
+              visitor: {
+                id:              '0123456789'   // Required if user is logged in
+                // email:        // Optional
+                // role:         // Optional
+
+                // You can add any additional visitor level key-values here,
+                // as long as it's not one of the above reserved names.
+              },
+
+              account: {
+                id:           '123' // Highly recommended
+                // name:         // Optional
+                // planLevel:    // Optional
+                // planPrice:    // Optional
+                // creationDate: // Optional
+
+                // You can add any additional account level key-values here,
+                // as long as it's not one of the above reserved names.
+              }
+            });
+          })('85d8e655-96ec-4cf0-7334-bb4c369d13aa');
+        </script>
+
+
+        <!-- `andy-test` pendo subscription snippet -->
+        <!-- <script>
             (function(apiKey){
               (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=[];
                 v=['initialize','identify','updateOptions','pageLoad'];for(w=0,x=v.length;w<x;++w)(function(m){
@@ -48,7 +86,9 @@
                 }
               });
             })('09b4d956-b422-4ed8-42c8-c5e72467cead');
-      </script>
+      </script> -->
+
+
     </head>
 
     <body>
