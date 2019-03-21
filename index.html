@@ -17,8 +17,43 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
-        <!-- pendo-dev snippet -->
+        <!-- another-one subscription snippet -->
         <script>
+            (function(apiKey){
+                (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=[];
+                v=['initialize','identify','updateOptions','pageLoad'];for(w=0,x=v.length;w<x;++w)(function(m){
+                    o[m]=o[m]||function(){o._q[m===v[0]?'unshift':'push']([m].concat([].slice.call(arguments,0)));};})(v[w]);
+                    y=e.createElement(n);y.async=!0;y.src='https://pendo-dev-static.storage.googleapis.com/agent/static/'+apiKey+'/pendo.js';
+                    z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
+
+                    // Call this whenever information about your visitors becomes available
+                    // Please use Strings, Numbers, or Bools for value types.
+                    pendo.initialize({
+                        visitor: {
+                            id:              'abc123'   // Required if user is logged in
+                            // email:        // Optional
+                            // role:         // Optional
+
+                            // You can add any additional visitor level key-values here,
+                            // as long as it's not one of the above reserved names.
+                        },
+
+                        account: {
+                            id:           '123abc' // Highly recommended
+                            // name:         // Optional
+                            // planLevel:    // Optional
+                            // planPrice:    // Optional
+                            // creationDate: // Optional
+
+                            // You can add any additional account level key-values here,
+                            // as long as it's not one of the above reserved names.
+                        }
+                    });
+            })('3de6a7e8-ed03-4ec5-5a1a-793cc5cad0d0');
+        </script>
+
+        <!-- pendo-dev snippet -->
+        <!-- <script>
           (function(apiKey){
             (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=[];
               v=['initialize','identify','updateOptions','pageLoad'];for(w=0,x=v.length;w<x;++w)(function(m){
@@ -50,7 +85,7 @@
               }
             });
           })('644a4023-d144-4458-60fe-6d06358508a2');
-        </script>
+        </script> -->
 
         <!-- `kristine-test` pendo subscription snippet -->
         <!-- <script>
@@ -96,6 +131,12 @@
     <body>
       <main class="container">
           <h3><i class="em em-building_construction"></i> <i class="em em-construction"></i> coming soon <i class="em em-construction"></i> <i class="icon-flipped em em-building_construction"></i></h3>
+          <div style="max-height: 400px; overflow:hidden">
+              <div style="max-height: 400px; overflow:hidden; overflow-y: auto">
+                  <div style="height: 1500px">force content to scroll</div>
+                  <button id="targetme" type="button">Target a guide at me, please</button>
+              </div>
+          </div>
       </main>
 
         <script src="bower_components/jquery/dist/jquery.js"></script>
