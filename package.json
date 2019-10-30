@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/ericksonk/ericksonk.github.io#readme",
   "devDependencies": {
-    "bower": "^1.5.3",
+    "bower": "^1.8.8",
     "browser-sync": "^2.9.8",
     "gulp": "^3.9.0",
     "node-sass": "^3.3.3"
