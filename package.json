@@ -20,7 +20,7 @@
   "homepage": "https://github.com/ericksonk/ericksonk.github.io#readme",
   "devDependencies": {
     "bower": "^1.5.3",
-    "browser-sync": "^2.9.8",
+    "browser-sync": "^2.27.10",
     "gulp": "^3.9.0",
     "node-sass": "^3.3.3"
   }
